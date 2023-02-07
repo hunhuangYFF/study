@@ -6,14 +6,244 @@
     <title></title>
 </head>
 <body>
-    <h1>这是一个标题</h1>
-    <p>这是一个段落</p>
-    <a href="https://www.baidu.com/">这是一个链接</a>
-    <p>水平线<hr>水平线</p>
+    <h1>这是一个标题</h1><hr />
+    <p>这是一个段落</p><hr />
+    <em>斜体1</em>&nbsp;<i>斜体2</i><hr />
+    <strong>加粗1</strong>&nbsp;<b>加粗2</b><hr />
     <!--注释注释-->
-    <p>换<br />行</p>
+    <a>大于号：</a>&gt;<hr />
+    <a>小于号：</a>&lt;<hr />
+    <a>引号：</a>&quot<hr />
+    <a>注册商标：</a>&reg;<hr />
+    <a>图像：</a><img src="images/Stop1.jpg" width="120px" height=70px" alt="图片加载异常，请联系管理员" title="好了，可以了，再说就烦了" /><hr />
+    <a>图像：</a><img src="images/Stop.jpg" width="120px" height=70px" alt="图片加载异常，请联系管理员" title="好了，可以了，再说就烦了" /><hr />
+    <a title="这是个浮动说明">鼠标移到文字上，可以有浮动说明</a><hr />
+    <!--超链接begin-->
+    <a href="#maker">锚链接：链接</a><br /><br />
+    <a href="https://www.baidu.com/" target="_self">这是一个链接，当前窗口打开</a><br /><br />
+    <a href="https://www.baidu.com/" target="_blank">这是一个链接，新窗口打开</a><br /><br />
+    <a href="tel:16688483388">拨打电话：16688483388</a><br /><br />
+    <a href="https://www.baidu.com " target="_blank">图片支持跳转：<img src="images/Stop.jpg" width="120px" height=70px"></a><br /><br />
+    <a href="./备注.txt">下载文件</a><br /><br />
+    <a name="maker">跳转位置</a><hr />
+    <!--超链接end-->
+    <p><bdo dir="rtl">12345,上山打老虎</bdo></p><hr />
+    <a>这是<sup>上标</sup>，这是<sub>下标</sub></a><hr />
+    <a><del>删除</del>文字</a><hr />
+    <!--列表begin-->
+    <h3>无序列表</h3>
+    <h4>没有列表符号：</h4>
+    <ul style="list-style-type:none">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <h4>圆点列表：</h4>
+    <ul style="list-style-type:disc">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <h4>圆圈列表：</h4>
+    <ul style="list-style-type:circle">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <h4>正方形列表：</h4>
+    <ul style="list-style-type:square">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ul>
+    <hr />
+
+    <h3>有序列表</h3>
+    <h4>编号列表：</h4>
+    <ol>
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ol>
+    <h4>大写字母列表：</h4>
+    <ol type="A">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ol>
+    <h4>小写字母列表：</h4>
+    <ol type="a">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ol>
+    <h4>罗马数字列表：</h4>
+    <ol type="I">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ol>
+    <h4>小写罗马数字列表：</h4>
+    <ol type="i">
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Lemons</li>
+        <li>Oranges</li>
+    </ol>
+    <hr />
+
+    <h4>一个自定义列表：</h4>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    <hr />
+
+    <h4>嵌套列表：</h4>
+    <ul>
+        <li>Coffee</li>
+        <li>
+            Tea
+            <ul>
+                <li>Black tea</li>
+                <li>
+                    Green tea
+                    <ul>
+                        <li>China</li>
+                        <li>Africa</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+    <hr />
+    <!--列表end-->
+    <!--表格begin-->
+    <h3>表格</h3>
+    <h4>一列:</h4>
+    <table border="1">
+        <tr>
+            <th>表头</th>
+        </tr>
+        <tr>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <h4>一行三列:</h4>
+    <table border="1">
+        <tr>
+            <th>表头1</th>
+            <th>表头2</th>
+            <th>表头3</th>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+
+    <h4>两行三列:</h4>
+    <table border="1">
+        <tr>
+            <th>表头1</th>
+            <th>表头2</th>
+            <th>表头3</th>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+
+
+    <h4>水平标题:</h4>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555 77 854</td>
+            <td>555 77 855</td>
+        </tr>
+    </table>
+
+    <h4>垂直标题:</h4>
+    <table border="1">
+        <tr>
+            <th>First Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Telephone:</th>
+            <td>555 77 854</td>
+        </tr>
+        <tr>
+            <td>555 77 855</td>
+        </tr>
+        <tr>
+            <td>555 77 855</td>
+        </tr>
+    </table>
     <br />
-    <br />
-    <img decoding="async" src="images/Stop.jpg" width="480px" height="270px" />
+    <hr />
+    <h3>样式练习</h3>
+    <table border="5" bordercolor="#00f" cellspacing="10" width="600" height="300" align="center" bgcolor="#2aafee">
+        <tr bgcolor="#36c9eb" align="right" valign="top">
+            <td bgcolor="#47f612" width="100" align="center" valign="bottom">123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td>一二三</td>
+            <td>四五六</td>
+            <td>七八九</td>
+        </tr>
+
+    </table><br /><hr />
+    <!--表格end-->
+
+    <div>独占一行</div>
+    <span>一行</span>
+    <span>可以</span>
+    <span>多个</span>
+    <br /><hr />
+
+     <form name="name1">
+        用户名：<input type="text"  name="username" value="请输入用户名" maxlength="5"/><br />
+        密码：<input type="password" name="psw" /><br />
+        性别：<input type="radio"  name="sex" value="男" checked/>男<input type="radio"  name="sex"/>女<br />
+        爱好：<input type="checkbox" name="hobby" value="英语" checked/>英语<input type="checkbox" name="hobby" checked/>语文<input type="checkbox" name="hobby"/>数学<br />
+        <input type="submit" value="注册"/>
+
+
+      </form>
+
+
+
+
+
+
+
 </body>
 </html>
